@@ -1,0 +1,288 @@
+<!DOCTYPE ="en">
+<!-- saved from url=(0032)http://127.0.0.1:5500/INDEX.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>BurgerKing - Haridwar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BurgerKing - Best Burgers in Haridwar, near SMJN PG College. Founded by Muskan Verma.">
+  <link href="./BurgerKing - Haridwar_files/css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #fff8f0;
+      color: #3d2b1f;
+    }
+    header {
+      background: #fbb034;
+      color: #fff;
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+      position: relative;
+    }
+    .hero-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-family: 'Baloo 2', cursive;
+      font-size: 3rem;
+      margin: 0.5rem 0;
+      letter-spacing: 2px;
+      color: #d62300;
+      text-shadow: 2px 2px 0 #fff;
+    }
+    .tagline {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #3d2b1f;
+      margin-bottom: 1rem;
+    }
+    nav {
+      margin: 1rem 0;
+    }
+    nav a {
+      color: #d62300;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    }
+    h2 {
+      font-family: 'Baloo 2', cursive;
+      color: #fbb034;
+      margin-top: 0;
+    }
+    .about, .location, .founder, .menu, .gallery, .pricing, .contact {
+      margin-bottom: 2.5rem;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .menu-card {
+      background: #fff8e1;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      flex: 1 1 220px;
+      padding: 1.2rem;
+      text-align: center;
+    }
+    .menu-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0.7rem;
+      border: 3px solid #fbb034;
+    }
+    .menu-card h3 {
+      margin: 0.5rem 0 0.2rem 0;
+      color: #d62300;
+      font-family: 'Baloo 2', cursive;
+    }
+    .menu-card p {
+      margin: 0.2rem 0;
+      color: #3d2b1f;
+      font-size: 1.05rem;
+    }
+    .price {
+      color: #fbb034;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .gallery-images {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery-images img {
+      width: 200px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .contact-info {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #3d2b1f;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 0 1rem 0;
+      border-radius: 0 0 16px 16px;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    @media (max-width: 700px) {
+      section {
+        padding: 1rem;
+      }
+      .menu-items, .gallery-images {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+  <header>
+    <img src="./BurgerKing - Haridwar_files/photo-1517248135467-4c7edcad34c4" alt="BurgerKing Restaurant" class="hero-img">
+    <h1>BurgerKing</h1>
+    <div class="tagline">Haridwar's Favorite Burger Destination</div>
+    <nav>
+      <a href="http://127.0.0.1:5500/INDEX.html#about">About</a>
+      <a href="http://127.0.0.1:5500/INDEX.html#location">Location</a>
+      <a href="http://127.0.0.1:5500/INDEX.html#menu">Menu</a>
+      <a href="http://127.0.0.1:5500/INDEX.html#gallery">Gallery</a>
+      <a href="http://127.0.0.1:5500/INDEX.html#pricing">Pricing</a>
+      <a href="http://127.0.0.1:5500/INDEX.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to <strong>BurgerKing</strong>, your go-to spot for mouth-watering burgers, crispy fries, and refreshing beverages in Haridwar! Located near SMJN PG College, we bring you the authentic taste of classic and contemporary burgers, all made with the freshest ingredients and a pinch of love.
+    </p>
+    <p>
+      Founded by <strong>Muskan Verma</strong>, BurgerKing is dedicated to serving not just food, but memorable experiences. Whether you’re a student, a family, or a food lover exploring the city, we promise you a delightful culinary journey every time you visit.
+    </p>
+  </section>
+
+  <section id="location" class="location">
+    <h2>Location</h2>
+    <p>
+      <strong>BurgerKing</strong><br>
+      Near SMJN PG College,<br>
+      Haridwar, Uttarakhand - 249403<br>
+      <em>(Easy to find, right in the heart of the city!)</em>
+    </p>
+    <div class="contact-info">
+      <b>Call Us:</b> +91-9876543210<br>
+      <b>Open:</b> 11:00 AM – 11:00 PM (Everyday)
+    </div>
+  </section>
+
+  <section id="founder" class="founder">
+    <h2>Meet the Founder</h2>
+    <p>
+      <img src="./BurgerKing - Haridwar_files/44.jpg" alt="Muskan Verma" style="width:100px; border-radius:50%; border:3px solid #fbb034; float:left; margin-right:1.2rem;">
+      <strong>Muskan Verma</strong> is a passionate entrepreneur and food lover, committed to bringing the best burger experience to Haridwar. Her vision is to create a space where everyone can enjoy delicious food, great company, and a warm atmosphere.
+    </p>
+    <div style="clear:both;"></div>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1550547660-d9450f859349" alt="Classic Burger">
+        <h3>Classic Burger</h3>
+        <p>Juicy beef patty, fresh lettuce, tomato, onion, cheese, and our signature sauce.</p>
+        <div class="price">₹129</div>
+      </div>
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1504674900247-0877df9cc836" alt="Veggie Delight">
+        <h3>Veggie Delight</h3>
+        <p>Grilled veggie patty, cheese, lettuce, tomato, and tangy mayo in a soft bun.</p>
+        <div class="price">₹109</div>
+      </div>
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1467003909585-2f8a72700288" alt="Crispy Chicken Burger">
+        <h3>Crispy Chicken Burger</h3>
+        <p>Crunchy chicken fillet, lettuce, spicy sauce, and cheese in a sesame bun.</p>
+        <div class="price">₹149</div>
+      </div>
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1502741338009-cac2772e18bc" alt="French Fries">
+        <h3>French Fries</h3>
+        <p>Golden, crispy fries served with ketchup or cheesy dip.</p>
+        <div class="price">₹69</div>
+      </div>
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1519864600265-abb23847ef2c" alt="Cold Coffee">
+        <h3>Cold Coffee</h3>
+        <p>Chilled, creamy cold coffee – the perfect refreshment!</p>
+        <div class="price">₹79</div>
+      </div>
+      <div class="menu-card">
+        <img src="./BurgerKing - Haridwar_files/photo-1519125323398-675f0ddb6308" alt="Chocolate Shake">
+        <h3>Chocolate Shake</h3>
+        <p>Rich, thick chocolate shake topped with whipped cream.</p>
+        <div class="price">₹89</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="./BurgerKing - Haridwar_files/photo-1414235077428-338989a2e8c0" alt="BurgerKing Ambience">
+      <img src="./BurgerKing - Haridwar_files/photo-1504674900247-0877df9cc836" alt="BurgerKing Food">
+      <img src="./BurgerKing - Haridwar_files/photo-1467003909585-2f8a72700288" alt="BurgerKing Drinks">
+      <img src="./BurgerKing - Haridwar_files/photo-1519125323398-675f0ddb6308" alt="BurgerKing Shakes">
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing &amp; Offers</h2>
+    <ul>
+      <li><b>Combo Meal (Any Burger + Fries + Drink):</b> ₹199 only</li>
+      <li><b>Student Special:</b> Get 10% off with SMJN PG College ID</li>
+</ul></section></body></html>
